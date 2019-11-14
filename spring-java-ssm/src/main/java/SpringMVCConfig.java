@@ -20,5 +20,4 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan(basePackages = "com.john")
 public class SpringMVCConfig {
-
 }
