@@ -4,9 +4,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.john</groupId>
+    <parent>
+        <groupId>com.john</groupId>
+        <artifactId>spring-all</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
     <artifactId>spring-java-xml</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>war</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.2.1.RELEASE</version>
+        </dependency>
+    </dependencies>
 
 </project>
