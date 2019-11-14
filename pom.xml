@@ -25,6 +25,7 @@
         <module>spring-boot-freemarker</module>
         <module>spring-java-ssm</module>
         <module>spring-java-xml</module>
+        <module>spring-boot-properties</module>
     </modules>
     <dependencies>
         <dependency>
