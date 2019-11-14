@@ -9,6 +9,7 @@
  */
 package com.john.controller;
 
+import com.john.mybatis.dto.Book;
 import com.john.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -26,11 +27,20 @@ public class HelloController {
 
     //@GetMapping(value = "/hello", produces = "text/html;charset=utf8")
     //public String hello() {
-        //return "hello world Spring!囧黄";
+    //return "hello world Spring!囧黄";
     //}
 
     @GetMapping(value = "/hello", produces = "text/html;charset=utf8")
     public String hello() {
         return helloService.sayHi();
+    }
+
+    @GetMapping("/showBook")
+    public Book showBook() {
+        Book book = new Book();
+        book.setId(1);
+        book.setAuthor("张三");
+        book.setIsbn("123456");
+        return book;
     }
 }
