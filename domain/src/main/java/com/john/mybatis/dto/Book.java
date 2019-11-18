@@ -11,6 +11,8 @@ package com.john.mybatis.dto;
 
 import lombok.Data;
 
+import java.util.Date;
+
 /**
  *
  * @author huangjy
@@ -23,4 +25,6 @@ public class Book {
     private String bookName;
     private String author;
     private String isbn;
+
+    private Date createTime;
 }

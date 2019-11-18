@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring-java-ssm" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-java-xml" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spring-boot-freemarker/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/domain/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-static-resources/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-java-xml/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-java-ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-common/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-json/pom.xml" />
+      </list>
+    </option>
+  </component>
+</project>
