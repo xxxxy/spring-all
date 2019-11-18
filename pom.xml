@@ -26,6 +26,7 @@
         <module>spring-java-ssm</module>
         <module>spring-java-xml</module>
         <module>spring-boot-properties</module>
+        <module>spring-boot-json</module>
     </modules>
     <dependencies>
         <dependency>
