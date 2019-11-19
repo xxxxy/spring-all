@@ -25,11 +25,9 @@ import java.util.List;
  * @author huangjy
  * @since v1.0
  */
-//@Controller
 @RestController
 public class BookJsonController {
 
-    //@ResponseBody
     @GetMapping("/queryBooks")
     public List<Book> queryBooks() {
         Book book = new Book();
@@ -50,5 +48,43 @@ public class BookJsonController {
         books.add(book);
         books.add(book1);
         return books;
+    }
+
+   /* @Bean
+    MappingJackson2HttpMessageConverter jackson2HttpMessageConverter() {
+        MappingJackson2HttpMessageConverter converter = new MappingJackson2HttpMessageConverter();
+        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.setDateFormat(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"));
+        converter.setObjectMapper(objectMapper);
+        return converter;
+    }
+
+    @Bean
+    ObjectMapper objectMapper(){
+        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.setDateFormat(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"));
+        return objectMapper;
+    }*/
+
+/*    @Bean
+    GsonHttpMessageConverter gsonHttpMessageConverter() {
+        GsonHttpMessageConverter gsonHttpMessageConverter = new GsonHttpMessageConverter();
+        GsonBuilder gsonBuilder = new GsonBuilder();
+        gsonHttpMessageConverter.setGson(gsonBuilder.setDateFormat("yyyy-MM-dd").create());
+        return gsonHttpMessageConverter;
+    }*/
+
+    /*@Bean
+    Gson gson(){
+        return new GsonBuilder().setDateFormat("yyyy-MM-dd").create();
+    }*/
+
+    @Bean
+    FastJsonHttpMessageConverter fastJsonHttpMessageConverter() {
+        FastJsonHttpMessageConverter fastJsonHttpMessageConverter = new FastJsonHttpMessageConverter();
+        FastJsonConfig fastJsonConfig = new FastJsonConfig();
+        fastJsonConfig.setDateFormat("yyyy-MM-dd HH:mm:ss");
+        fastJsonHttpMessageConverter.setFastJsonConfig(fastJsonConfig);
+        return fastJsonHttpMessageConverter;
     }
 }
