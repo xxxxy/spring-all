@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/spring-java-ssm/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-common/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-json/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-jsp/pom.xml" />
       </list>
     </option>
   </component>
