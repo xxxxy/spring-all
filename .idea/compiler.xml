@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="domain" />
         <module name="spring-boot-common" />
+        <module name="spring-boot-exception" />
         <module name="spring-boot-freemarker" />
         <module name="spring-boot-json" />
         <module name="spring-boot-jsp" />
@@ -16,6 +17,7 @@
         <module name="spring-boot-properties" />
         <module name="spring-boot-static-resources" />
         <module name="spring-boot-thymeleaf" />
+        <module name="spring-boot-upload" />
         <module name="spring-java-ssm" />
         <module name="spring-java-xml" />
       </profile>
@@ -25,6 +27,7 @@
       <module name="freemarker" target="1.8" />
       <module name="spring-all" target="1.8" />
       <module name="spring-boot-common" target="1.5" />
+      <module name="spring-boot-exception" target="1.8" />
       <module name="spring-boot-freemarker" target="1.8" />
       <module name="spring-boot-json" target="1.8" />
       <module name="spring-boot-jsp" target="1.8" />
@@ -32,6 +35,7 @@
       <module name="spring-boot-properties" target="1.8" />
       <module name="spring-boot-static-resources" target="1.8" />
       <module name="spring-boot-thymeleaf" target="1.8" />
+      <module name="spring-boot-upload" target="1.8" />
       <module name="spring-java-ssm" target="1.8" />
       <module name="spring-java-xml" target="1.8" />
     </bytecodeTargetLevel>
@@ -42,6 +46,7 @@
       <module name="freemarker" options="-parameters" />
       <module name="spring-all" options="-parameters" />
       <module name="spring-boot-common" options="" />
+      <module name="spring-boot-exception" options="-parameters" />
       <module name="spring-boot-freemarker" options="-parameters" />
       <module name="spring-boot-json" options="-parameters" />
       <module name="spring-boot-jsp" options="-parameters" />
@@ -49,6 +54,7 @@
       <module name="spring-boot-properties" options="-parameters" />
       <module name="spring-boot-static-resources" options="-parameters" />
       <module name="spring-boot-thymeleaf" options="-parameters" />
+      <module name="spring-boot-upload" options="-parameters" />
       <module name="spring-java-ssm" options="-parameters" />
       <module name="spring-java-xml" options="-parameters" />
     </option>

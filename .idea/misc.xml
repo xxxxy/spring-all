@@ -19,6 +19,8 @@
         <option value="$PROJECT_DIR$/spring-boot-common/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-json/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-exception/pom.xml" />
       </list>
     </option>
   </component>
