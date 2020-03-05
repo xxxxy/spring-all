@@ -1,13 +1,13 @@
-package com.john.springbootexception;
+package com.john.springbootxxljob;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootExceptionApplication {
+public class SpringBootXxlJobApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootExceptionApplication.class, args);
+        SpringApplication.run(SpringBootXxlJobApplication.class, args);
     }
 
 }
