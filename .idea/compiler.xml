@@ -9,33 +9,47 @@
         <outputRelativeToContentRoot value="true" />
         <module name="domain" />
         <module name="spring-boot-common" />
+        <module name="spring-boot-controlleradvice" />
+        <module name="spring-boot-excel" />
         <module name="spring-boot-exception" />
         <module name="spring-boot-freemarker" />
         <module name="spring-boot-json" />
         <module name="spring-boot-jsp" />
         <module name="spring-boot-mybatis" />
         <module name="spring-boot-properties" />
+        <module name="spring-boot-redis" />
         <module name="spring-boot-static-resources" />
         <module name="spring-boot-thymeleaf" />
         <module name="spring-boot-upload" />
+        <module name="spring-boot-xxl-job" />
+        <module name="spring-data-redis" />
         <module name="spring-java-ssm" />
         <module name="spring-java-xml" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="domain" target="1.8" />
+      <module name="easyexcel" target="1.5" />
       <module name="freemarker" target="1.8" />
+      <module name="myexception" target="1.8" />
       <module name="spring-all" target="1.8" />
       <module name="spring-boot-common" target="1.5" />
+      <module name="spring-boot-controlleradvice" target="1.8" />
+      <module name="spring-boot-customexception" target="1.8" />
+      <module name="spring-boot-excel" target="1.8" />
       <module name="spring-boot-exception" target="1.8" />
       <module name="spring-boot-freemarker" target="1.8" />
       <module name="spring-boot-json" target="1.8" />
       <module name="spring-boot-jsp" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
       <module name="spring-boot-properties" target="1.8" />
+      <module name="spring-boot-redis" target="1.8" />
       <module name="spring-boot-static-resources" target="1.8" />
+      <module name="spring-boot-test" target="1.8" />
       <module name="spring-boot-thymeleaf" target="1.8" />
       <module name="spring-boot-upload" target="1.8" />
+      <module name="spring-boot-xxl-job" target="1.8" />
+      <module name="spring-data-redis" target="1.8" />
       <module name="spring-java-ssm" target="1.8" />
       <module name="spring-java-xml" target="1.8" />
     </bytecodeTargetLevel>
@@ -44,17 +58,25 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="domain" options="-parameters" />
       <module name="freemarker" options="-parameters" />
+      <module name="myexception" options="-parameters" />
       <module name="spring-all" options="-parameters" />
       <module name="spring-boot-common" options="" />
+      <module name="spring-boot-controlleradvice" options="-parameters" />
+      <module name="spring-boot-customexception" options="-parameters" />
+      <module name="spring-boot-excel" options="-parameters" />
       <module name="spring-boot-exception" options="-parameters" />
       <module name="spring-boot-freemarker" options="-parameters" />
       <module name="spring-boot-json" options="-parameters" />
       <module name="spring-boot-jsp" options="-parameters" />
       <module name="spring-boot-mybatis" options="-parameters" />
       <module name="spring-boot-properties" options="-parameters" />
+      <module name="spring-boot-redis" options="-parameters" />
       <module name="spring-boot-static-resources" options="-parameters" />
+      <module name="spring-boot-test" options="-parameters" />
       <module name="spring-boot-thymeleaf" options="-parameters" />
       <module name="spring-boot-upload" options="-parameters" />
+      <module name="spring-boot-xxl-job" options="-parameters" />
+      <module name="spring-data-redis" options="-parameters" />
       <module name="spring-java-ssm" options="-parameters" />
       <module name="spring-java-xml" options="-parameters" />
     </option>

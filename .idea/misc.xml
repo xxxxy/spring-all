@@ -20,8 +20,13 @@
         <option value="$PROJECT_DIR$/spring-boot-json/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-jsp/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-controlleradvice/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-xxl-job/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-excel/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

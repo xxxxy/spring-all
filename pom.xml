@@ -27,6 +27,7 @@
         <module>spring-java-xml</module>
         <module>spring-boot-properties</module>
         <module>spring-boot-json</module>
+        <module>spring-data-redis</module>
     </modules>
     <dependencies>
         <dependency>
@@ -55,16 +56,17 @@
             <artifactId>guava</artifactId>
             <version>27.0.1-jre</version>
         </dependency>
-        <!--<dependency>
+        <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.58</version>
-        </dependency>-->
+        </dependency>
 
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
         </dependency>
+
     </dependencies>
 
     <build>
